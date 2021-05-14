@@ -4,3 +4,5 @@ WORKDIR /usr/local/debug
 RUN apk add --update python3
 
 COPY . .
+RUN mv /traps.sh ./
+CMD ["/bin/bash", "./traps.sh"]
