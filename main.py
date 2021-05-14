@@ -11,3 +11,4 @@ def recursive_success():
     test_output = f"test module: ${test.testOutput()}"
 
 
+recursive_success()
