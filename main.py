@@ -1,5 +1,6 @@
 import sys
-sys.path.append("./modules/")
+sys.path.append("./mod-demo/")
+sys.path.append("./mod-test/")
 
 import demo
 import test
