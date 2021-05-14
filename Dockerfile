@@ -1,4 +1,4 @@
-FROM alpine:3
+FROM cycleplatform/debug:no-volume
 RUN mkdir -p /usr/local/debug
 WORKDIR /usr/local/debug
 RUN apk add --update python3
